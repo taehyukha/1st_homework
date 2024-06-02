@@ -7,6 +7,17 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int n;
+    scanf("%d", &n);
+    if (n >= 90 && n < 100)
+        printf("A");
+    else if (n >= 80 && n < 90)
+        printf("B");
+    else if (n >= 70 && n < 80)
+        printf("C");
+    else if (n >= 60 && n < 70)
+        printf("D");
+    else
+        printf("F");
     return 0;
 }

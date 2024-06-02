@@ -7,6 +7,18 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int Y, M;
+    scanf("%d %d", &Y, &M);
+    if (M == 4 || M == 6 || M == 9 || M == 11)
+        printf("30");
+    else if (M == 2)
+    {
+        if ((Y % 4 == 0 && Y % 100 != 0) || Y % 400 == 0)
+            printf("29");
+        else
+            printf("28");
+    }
+    else
+        printf("31");
     return 0;
 }

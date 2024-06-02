@@ -7,6 +7,11 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    char alphabet;
+    scanf("%c", &alphabet);
+    if (alphabet == 'a' || alphabet == 'i' || alphabet == 'e' || alphabet == 'o' || alphabet == 'u')
+        printf("O");
+    else
+        printf("X");
     return 0;
 }
